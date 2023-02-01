@@ -1,0 +1,144 @@
+/*=======================Configurations globales==========================*/
+*{
+    font-family: 'Raleway', sans-serif; /* Un nom de police suivi d'un nom de famille générique */
+    box-sizing: border-box; /* indique au navigateur de prendre en compte la bordure et le remplissage dans la valeur définie pour la largeur et la hauteur */
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width:320px ;
+}
+h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0.67em 0;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+
+/*=========================Classes de Configuration d'element==================================*/
+
+
+/*===========Style du header========================================*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 25px;
+    padding-left: 45px;       
+}
+
+
+ul.menu{
+    display: flex;
+    font-weight: 500;
+}
+ul.menu:hover{
+    font-weight: 500;
+}
+
+.menu li{
+    width: 200px;
+    text-align: center;
+    padding-top: 45px;
+}
+.menu_activites:hover a, .menu_hebergements:hover a{
+    color: #0065fc ;
+}
+
+.menu_activites:hover, .menu_hebergements:hover {
+    border-top: 2px solid #0065fc ;
+    color: #0065FC;
+}
+
+
+/*=========================================Section Recherche==============*/
+
+.section_recherche{
+    padding: 45px;
+}
+.section_recherche p {
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.icon-localisation{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+    background-color: #F2F2F2;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -1px;
+    
+}
+::placeholder{
+    font-weight: 800;
+    color: black;
+    padding-left:5px;
+}
+
+
+form {
+    display: flex;
+    margin-top: 0;
+}
+input{
+    width: 280px;
+    border: 1px solid #F2F2F2;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    padding: 10px;
+}
+
+.button_form{
+    width: 132px;
+    background-color: #0065FC;
+    color: white;
+    border: 0px solid #F2F2F2;
+    border-radius: 0px 20px 20px 0px;
+    font-weight: 800;
+}
+.filtres{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    display: flex;
+}
+
+.icone_filtres{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        padding: 15px;
+        position: absolute;
+        margin-left: -54px;
+        margin-top: -14px;
+}
+.filtre_contents{
+    height: 53px;
+    padding-bottom: -2px;
+    padding-top: 12px;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+    margin-left: -37px;
+    padding-right: 15px;
+    padding-left: 52px;
+} 
+

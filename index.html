@@ -20,7 +20,7 @@
 <body>
 
     <header>
-            <div class="logo" >  <a href="index.html"> <img height="55" src="asset/images/logo/Booki@3x.png" alt="Logo de l'entreprise Booki"> </a> </div>
+            <div class="logo" >  <a href="index.html"> <img id="logo" height="55" src="asset/images/logo/Booki@3x.png" alt="Logo de l'entreprise Booki"> </a> </div>
             
            <nav> 
                <ul class="menu">
@@ -47,8 +47,10 @@
                     <i class="fa-solid fa-location-dot"></i> 
                 </div>
                 <input type="text" name="ville" placeholder="Marseille, France" />
-                <button type="button" class="button_form">Rechercher</button>
+                <button type="button" class="button_form button_text">Rechercher</button>
+                <button type="button" class="button_form button_icon"><i class="fa-solid fa-magnifying-glass loupe"></i> </button>
             </form>
+
         </div>
 
         <div class="filtres">
@@ -58,7 +60,7 @@
            <div class="filtres_icons">
                 <div class="filtre_contents economique">
                     <i class="fa-solid fa-money-bill-wave icone_filtres"></i>
-                    <p id="filtre_eco">Economique</p>
+                    <div> <p id="filtre_eco">Economique</p> </div>
                 </div>
                 <div class="filtre_contents familial">
                     <i class="fa-solid fa-child-reaching icone_filtres"></i>
@@ -252,23 +254,23 @@
             <div class="ligne1"> 
 
                 <div class="activite_card activite_long" style="box-shadow: 1px 4px 14px 1px #d7d8d9;">
-                        <img class="image_activite" src="asset/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                        <img  class="image_activite" src="asset/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
                        
                         <div class="activite_detail">
                             <p style="font-weight: bold;" > Vieux Port</p>
                         </div>
                 </div>
 
-                <div class="activite_card activite2">
-                    <div class="activite_court">
-                        <img class="image_activite2" src="asset/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                <div class="activite_card activite2" >
+                    <div class="activite_court" id="pomegues">
+                        <img  class="image_activite2" src="asset/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
                     
                         <div class="activite_detail">
                             <p style="font-weight: bold;" > Fort de Pomègues</p>
                         </div>
                     </div>
 
-                    <div class="activite_court">
+                    <div class="activite_court" id="frioul">
                         <img class="image_activite2" src="asset/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
                     
                         <div class="activite_detail">
@@ -286,7 +288,7 @@
                 </div>
 
                 <div class="activite_card activite2">
-                    <div class="activite_court">
+                    <div class="activite_court" id="notre_dame">
                         <img class="image_activite2" src="asset/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
                     
                         <div class="activite_detail">
@@ -294,7 +296,7 @@
                         </div>
                     </div>
 
-                    <div class="activite_court">
+                    <div class="activite_court" id="longchamp">
                         <img class="image_activite2" src="asset/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
                     
                         <div class="activite_detail">
@@ -317,9 +319,9 @@
             <div class="footer_item" >
                     <h3> A propos </h3>
                 <ul>
-                    <li> <a href="#"> Fonctionnement du site </a> </li>
-                    <li> <a href="#"> Conditions générales de vente </a> </li>
-                    <li> <a href="#"> Données et confidentialité </a> </li>
+                    <li style="margin-bottom: 10px;"> <a href="#"> Fonctionnement du site </a> </li>
+                    <li style="margin-bottom: 10px;"> <a href="#"> Conditions générales de vente </a> </li>
+                    <li style="margin-bottom: 10px;"> <a href="#"> Données et confidentialité </a> </li>
                 </ul>
                     
             </div>
@@ -327,16 +329,16 @@
             <div class="footer_item" >
                 <h3>Nos hébergements</h3>
                 <ul>
-                    <li> <a href="#"> Charte qualité </a> </li>
-                <li> <a href="#"> Soumettre votre hôtel </a> </li>
+                    <li style="margin-bottom: 10px;"> <a href="#"> Charte qualité </a> </li>
+                <li style="margin-bottom: 10px;"> <a href="#"> Soumettre votre hôtel </a> </li>
                 </ul>
             </div>
 
             <div class="footer_item" >
                 <h3>Assistance</h3>
                 <ul>
-                    <li> <a href="#"> Centre d'aide </a> </li>
-                   <li> <a href="#"> Nous contacter </a> </li>
+                    <li style="margin-bottom: 10px;"> <a href="#"> Centre d'aide </a> </li>
+                   <li style="margin-bottom: 10px;"> <a href="#"> Nous contacter </a> </li>
                 </ul>
            </div>
 

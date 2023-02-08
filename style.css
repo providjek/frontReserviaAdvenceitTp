@@ -58,11 +58,7 @@ ul.menu:hover{
     cursor: pointer;
 }
 
-a[href="#hebergement"]:visited + .menu_hebergements{
-    border-top: 2px solid #0065fc ;
-    color: #0065FC;
-    cursor: pointer;   
-}
+
 .menu_hebergements a :focus, .menu_hebergements a:active{
     color: #0065FC;
 }
@@ -909,7 +905,7 @@ footer{
         width: 100%;
     }
     .populaire_card_detail p, .hebergement_detail p{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
     .populaire_card_detail{
         width: 50%;
@@ -973,7 +969,7 @@ footer{
         height: 75%;
     }
     .activite_long{
-        margin-bottom: 20px;
+        margin-bottom: 20px;cggh
     }
 
     .activite_marseille h2 {
@@ -992,8 +988,6 @@ footer{
     .activite_marseille{
         padding-left: 35px;
     }
-
-
 
 
 

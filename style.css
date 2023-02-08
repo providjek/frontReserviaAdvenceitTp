@@ -53,9 +53,15 @@ ul.menu:hover{
     text-align: center;
     padding-top: 45px;
 }
-.menu_activites:hover a, .menu_hebergements:hover a{
+.menu_activites:hover a, .menu_hebergements:hover a, .menu_hebergements:visited a{
     color: #0065fc ;
     cursor: pointer;
+}
+
+a[href="#hebergement"]:visited + .menu_hebergements{
+    border-top: 2px solid #0065fc ;
+    color: #0065FC;
+    cursor: pointer;   
 }
 .menu_hebergements a :focus, .menu_hebergements a:active{
     color: #0065FC;
@@ -196,7 +202,10 @@ input{
     background-color: #0065FC;
 }
 
-
+.filtre_contents:hover i:first-child {
+    color: #fff;
+    background-color: #0065FC;
+}
 
 .info{
     margin: 20px;
@@ -988,11 +997,14 @@ footer{
 
 
 
-  /************/
-    footer{
-    display: none;
-}
-    
+  
+      /**********************  Footer  ********************************/
+      .bloc_footer{
+        flex-direction: column; 
+        }
+        .footer_item{
+            width: 100%;
+        }
 
 }
 

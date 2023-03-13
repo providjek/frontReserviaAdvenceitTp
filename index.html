@@ -46,7 +46,7 @@
                 <div class="icon-localisation">
                     <i class="fa-solid fa-location-dot"></i> 
                 </div>
-                <input type="text" name="ville" placeholder="Marseille, France" />
+                <input type="text" name="ville" placeholder="Marseille, France">
                 <button type="button" class="button_form button_text">Rechercher</button>
                 <button type="button" class="button_form button_icon"><i class="fa-solid fa-magnifying-glass loupe"></i> </button>
             </form>
@@ -79,7 +79,7 @@
         </div>
 
         <div class="info">     
-            <i class="fa-solid fa-info"></i></i><span>Plus de 500 logements sont disponibles dans cette ville</span>
+            <i class="fa-solid fa-info"></i><span>Plus de 500 logements sont disponibles dans cette ville</span>
        </div>
     </section>
 
@@ -91,24 +91,44 @@
             <div class="table">
                 <div class="ligne1"> 
                     <div class="hebergement_card">
-                            <img class="image_hebergement" src="asset/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                            <img class="image_hebergement"
+                                src="asset/images/hebergements/3_medium/hebergement_1x.jpg" 
+                                 srcset="asset/images/hebergements/4_small/hebergement_1x.jpg 640w,
+                                        asset/images/hebergements/3_medium/hebergement_1x.jpg 1024w,
+                                        asset/images/hebergements/2_large/hebergement_1x.jpg 1440w,
+                                        asset/images/hebergements/1_xlarge/hebergement_1x.jpg 1920w"
+                                        
+                                sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px"
+                                  alt="Auberge La Cannebière à Marseille" >
                             <div class="hebergement_detail">
                                 <h3>Auberge La Cannebière</h3>
-                                <p> Nuit à partir de <span style="font-weight: bold;">25€</span></p>
+                                <p> Nuit à partir de <span class="bold">25€</span></p>
                                 <div class="detail_etoiles">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star" style="color: #898989;"></i>
+                                    <i class="fa-solid fa-star gray"></i>
                                 </div>
                             </div>
                     </div>
                     <div class="hebergement_card">
-                            <img class="image_hebergement" src="asset/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt=" Hotel du port à Marseille" >
+                            <img class="image_hebergement"
+                            src="asset/images/hebergements/3_medium/hebergement_2x.jpg" 
+                            srcset="asset/images/hebergements/4_small/hebergement_2x.jpg 640w,
+                                    asset/images/hebergements/3_medium/hebergement_2x.jpg 1024w,
+                                    asset/images/hebergements/2_large/hebergement_2x.jpg 1440w,
+                                    asset/images/hebergements/1_xlarge/hebergement_2x.jpg 1920w
+                                    "
+                                    sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px"
+                            alt=" Hotel du port à Marseille" >
                         <div class="hebergement_detail">
                             <h3>Hôtel du port</h3>
-                            <p> Nuit à partir de <span style="font-weight: bold;">52€</span></p>
+                            <p> Nuit à partir de <span class="bold">52€</span></p>
                             <div class="detail_etoiles">
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
@@ -119,54 +139,94 @@
                         </div>    
                     </div>
                     <div class="hebergement_card">
-                            <img class="image_hebergement" src="asset/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Booki - Hotel Les mouettes à Marseille" >
+                            <img class="image_hebergement" 
+                            src="asset/images/hebergements/3_medium/hebergement_3x.jpg" 
+                            srcset="asset/images/hebergements/4_small/hebergement_3x.jpg 640w,
+                                    asset/images/hebergements/3_medium/hebergement_3x.jpg 1024w,
+                                    asset/images/hebergements/2_large/hebergement_3x.jpg 1440w,
+                                    asset/images/hebergements/1_xlarge/hebergement_3x.jpg 1920w
+                                    "
+                                    sizes="(max-width: 768px) 100vw,
+                                    (max-width: 1200px) 50vw,
+                                    800px"
+                            alt="Booki - Hotel Les mouettes à Marseille" >
                             <div class="hebergement_detail">
                             <h3>Hôtel Les mouettes</h3>
-                            <p> Nuit à partir de <span style="font-weight: bold;">76€</span></p>
+                            <p> Nuit à partir de <span class="bold">76€</span></p>
                             <div class="detail_etoiles">
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star" style="color: #898989;"></i>
+                                <i class="fa-solid fa-star gray"></i>
                             </div>
                         </div>    
                     </div>
                 </div>
                 <div class="ligne2">
                     <div class="hebergement_card">
-                            <img class="image_hebergement" src="asset/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Booki - Hotel de la mer à Marseille" >
+                            <img class="image_hebergement"  
+                            src="asset/images/hebergements/3_medium/hebergement_4x.jpg"                           
+                            srcset="asset/images/hebergements/4_small/hebergement_4x.jpg 640w,
+                                    asset/images/hebergements/3_medium/hebergement_4x.jpg 1024w,
+                                    asset/images/hebergements/2_large/hebergement_4x.jpg 1440w,
+                                    asset/images/hebergements/1_xlarge/hebergement_4x.jpg 1920w
+                                    "
+                                    sizes="(max-width: 768px) 100vw,
+                                    (max-width: 1200px) 50vw,
+                                    800px"
+                            alt="Booki - Hotel de la mer à Marseille" >
                         <div class="hebergement_detail">
                             <h3>Hôtel de la mer</h3>
-                            <p> Nuit à partir de <span style="font-weight: bold;">46€</span></p>
+                            <p> Nuit à partir de <span class="bold">46€</span></p>
                             <div class="detail_etoiles">
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star" style="color: #898989;"></i>
-                                <i  class="fa-solid fa-star" style="color: #898989;"></i>
+                                <i class="fa-solid fa-star gray"></i>
+                                <i  class="fa-solid fa-star gray"></i>
                             </div>
                         </div>    
                     </div>
                     <div class="hebergement_card">
-                            <img class="image_hebergement" src="asset/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier à Marseille" >
+                            <img class="image_hebergement"
+                            src="asset/images/hebergements/3_medium/hebergement_5x.jpg" 
+                            srcset="asset/images/hebergements/4_small/hebergement_5x.jpg 640w,
+                                    asset/images/hebergements/3_medium/hebergement_5x.jpg 1024w,
+                                    asset/images/hebergements/2_large/hebergement_5x.jpg 1440w,
+                                    asset/images/hebergements/1_xlarge/hebergement_5x.jpg 1920w
+                                    "
+                            sizes="(max-width: 768px) 100vw,
+                            (max-width: 1200px) 50vw,
+                            800px"
+                            alt="Auberge Le Panier à Marseille" >
                         <div class="hebergement_detail">
                             <h3>Auberge Le Panier</h3>
-                            <p> Nuit à partir de <span style="font-weight: bold;">23€</span></p>
+                            <p> Nuit à partir de <span class="bold">23€</span></p>
                             <div class="detail_etoiles">
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star" style="color: #898989;"></i>
+                                <i class="fa-solid fa-star gray"></i>
                             </div>
                         </div>    
                     </div>
                     <div class="hebergement_card">
-                            <img class="image_hebergement" src="asset/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt=" Hotel chez Amina à Marseille" >
+                            <img class="image_hebergement"
+                            src="asset/images/hebergements/3_medium/hebergement_6x.jpg" 
+                            srcset="asset/images/hebergements/4_small/hebergement_6x.jpg 640w,
+                                    asset/images/hebergements/3_medium/hebergement_6x.jpg 1024w,
+                                    asset/images/hebergements/2_large/hebergement_6x.jpg 1440w,
+                                    asset/images/hebergements/1_xlarge/hebergement_6x.jpg 1920w
+                                    "
+                            sizes="(max-width: 768px) 100vw,
+                            (max-width: 1200px) 50vw,
+                            800px"
+                            alt=" Hotel chez Amina à Marseille" >
                         <div class="hebergement_detail">
                             <h3>Hôtel chez Amina</h3>
-                            <p> Nuit à partir de 96<span style="font-weight: bold;">€</span></p>
+                            <p> Nuit à partir de 96<span class="bold">€</span></p>
                             <div class="detail_etoiles">
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
@@ -185,19 +245,28 @@
         <div></div>
    
         <div class="populaire" >
-            <div style="display: flex; justify-content: space-between; margin-bottom: 25px;">
+            <div class="populaire_titre">
                 <h2>Les plus populaires</h2>     
-                <i class="fa-solid fa-star icon_etoiles_popuplaire" style="margin-top: 6px;"></i>
+                <i class="fa-solid fa-star icon_etoiles_popuplaire" ></i>
             </div>
             <div class="populaire_bloc_card">              
                                             
                             <div class="populaire_card">      
-                                <img class="image_populaire" src="asset/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                                <img class="image_populaire"  
+                                src="asset/images/hebergements/3_medium/populaire_1x.jpg" 
+                                srcset="asset/images/hebergements/4_small/populaire_1x.jpg 640w,
+                                        asset/images/hebergements/3_medium/populaire_1x.jpg 1024w,
+                                        asset/images/hebergements/2_large/populaire_1x.jpg 1440w,
+                                        asset/images/hebergements/1_xlarge/populaire_1x.jpg 1920w"
+                                sizes="(max-width: 768px) 100vw,
+                                (max-width: 1200px) 50vw,
+                                800px"
+                                alt="Auberge La Cannebière à Marseille" >
                             
                             <div class="populaire_card_detail">
                                 
                                 <h3>Hôtel Le soleil du matin</h3>
-                                <p> Nuit à partir de <span style="font-weight: bold;">128€</span></p>
+                                <p> Nuit à partir de <span class="bold">128€</span></p>
                                 <div class="detail_etoiles_popuplaire">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -210,18 +279,28 @@
                              </div>
 
                             <div class="populaire_card">      
-                                    <img class="image_populaire" src="asset/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                                    <img class="image_populaire"
+                                       src="asset/images/hebergements/3_medium/populaire_2x.jpg"   
+                                        srcset="asset/images/hebergements/4_small/populaire_2x.jpg 640w,
+                                        asset/images/hebergements/3_medium/populaire_2x.jpg 1024w,
+                                        asset/images/hebergements/2_large/populaire_2x.jpg 1440w,
+                                        asset/images/hebergements/1_xlarge/populaire_2x.jpg 1920w
+                                        "
+                                        sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px"
+                                        alt="Auberge La Cannebière à Marseille" >
                                 
                                 <div class="populaire_card_detail">
                                     
                                     <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                                    <p> Nuit à partir de <span style="font-weight: bold;">71€</span></p>
+                                    <p> Nuit à partir de <span class="bold">71€</span></p>
                                     <div class="detail_etoiles_popuplaire">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star" style="color: #898989;"></i>
+                                        <i class="fa-solid fa-star gray"></i>
                                     </div>
                                     
                                 </div>
@@ -229,18 +308,27 @@
                    
                    
                         <div class="populaire_card">      
-                            <img class="image_populaire" src="asset/images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                            <img class="image_populaire" 
+                                src="asset/images/hebergements/3_medium/populaire_3x.jpg" 
+                                srcset="asset/images/hebergements/4_small/populaire_3x.jpg 640w,
+                                asset/images/hebergements/3_medium/populaire_3x.jpg 1024w,
+                                asset/images/hebergements/2_large/populaire_3x.jpg 1440w,
+                                asset/images/hebergements/1_xlarge/populaire_3x.jpg 1920w"
+                                sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px"
+                                alt="Auberge La Cannebière à Marseille" >
                         
                         <div class="populaire_card_detail">
                             
                             <h3> Hôtel Tout bleu et Blanc </h3>
-                            <p> Nuit à partir de <span style="font-weight: bold;">68€</span></p>
+                            <p> Nuit à partir de <span class="bold">68€</span></p>
                             <div class="detail_etoiles_popuplaire">
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star" style="color: #898989;"></i>
+                                <i class="fa-solid fa-star gray"></i>
                             </div>
                             
                         </div>
@@ -252,60 +340,126 @@
 
     </section>
     
-    <section class="activite_marseille" id="activite" style="margin-top: 45px;">
+    <section class="activite_marseille" id="activite" >
         
             <h2>Activités à Marseille</h2>
           
             <div class="ligne1 ligne_marseille"> 
 
-                <div class="activite_card activite_long" style="box-shadow: 1px 4px 14px 1px #d7d8d9;">
-                        <img  class="image_activite" src="asset/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                <div class="activite_card activite_long" >
+                        <img  class="image_activite" 
+                            src="asset/images/activites/3_medium/activite_1x.jpg" 
+                            srcset="
+                            asset/images/activites/4_small/activite_1x.jpg 640w,
+                            asset/images/activites/3_medium/activite_1x.jpg 1024w,
+                            asset/images/activites/2_large/activite_1x.jpg 1440w,
+                            asset/images/activites/1_xlarge/activite_1x.jpg 1920w
+                            "
+                            sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px"
+                            alt="Auberge La Cannebière à Marseille" >
                        
                         <div class="activite_detail">
-                            <p style="font-weight: bold;" > Vieux Port</p>
+                            <p class="bold" > Vieux Port</p>
                         </div>
                 </div>
 
                 <div class="activite_card activite2" >
                     <div class="activite_court" id="pomegues">
-                        <img  class="image_activite2" src="asset/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                        <img  class="image_activite2" 
+                                src="asset/images/activites/3_medium/activite_2x.jpg" 
+                                srcset="
+                                asset/images/activites/4_small/activite_2x.jpg 640w,
+                                asset/images/activites/3_medium/activite_2x.jpg 1024w,
+                                asset/images/activites/2_large/activite_2x.jpg 1440w,
+                                asset/images/activites/1_xlarge/activite_2x.jpg 1920w
+                                "
+                                sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px" 
+                              alt="Auberge La Cannebière à Marseille" >
                     
                         <div class="activite_detail">
-                            <p style="font-weight: bold;" > Fort de Pomègues</p>
+                            <p class="bold" > Fort de Pomègues</p>
                         </div>
                     </div>
 
                     <div class="activite_court" id="frioul">
-                        <img class="image_activite2" src="asset/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                        <img class="image_activite2" 
+                            src="asset/images/activites/3_medium/activite_6x.jpg" 
+                            srcset="
+                            asset/images/activites/4_small/activite_6x.jpg 640w,
+                            asset/images/activites/3_medium/activite_6x.jpg 1024w,
+                            asset/images/activites/2_large/activite_6x.jpg 1440w,
+                            asset/images/activites/1_xlarge/activite_6x.jpg 1920w
+                            "
+                            sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px"
+                        alt="Auberge La Cannebière à Marseille" >
                     
                         <div class="activite_detail">
-                            <p style="font-weight: bold;" > Îles du Frioul </p>
+                            <p class="bold" > Îles du Frioul </p>
                         </div>
                     </div>                   
                 </div>
 
-                <div class="activite_card activite_long" style="box-shadow: 1px 4px 14px 1px #d7d8d9;" >
-                    <img class="image_activite" src="asset/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                <div class="activite_card activite_long"  >
+                    <img class="image_activite"
+                        src="asset/images/activites/3_medium/activite_3x.jpg" 
+                        srcset="
+                        asset/images/activites/4_small/activite_3x.jpg 640w,
+                        asset/images/activites/3_medium/activite_3x.jpg 1024w,
+                        asset/images/activites/2_large/activite_3x.jpg 1440w,
+                        asset/images/activites/1_xlarge/activite_3x.jpg 1920w
+                        "
+                        sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px"
+                        alt="Auberge La Cannebière à Marseille" >
                    
                     <div class="activite_detail">
-                        <p style="font-weight: bold;" > Parc National des Calanques</p>
+                        <p class="bold" > Parc National des Calanques</p>
                     </div>
                 </div>
 
-                <div class="activite_card activite2" style="margin-right: 3%;">
+                <div class="activite_card activite2 last_activite" >
                     <div class="activite_court" id="notre_dame">
-                        <img class="image_activite2" src="asset/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                        <img class="image_activite2" 
+                            src="asset/images/activites/3_medium/activite_4x.jpg" 
+                            srcset="
+                            asset/images/activites/4_small/activite_4x.jpg 640w,
+                            asset/images/activites/3_medium/activite_4x.jpg 1024w,
+                            asset/images/activites/2_large/activite_4x.jpg 1440w,
+                            asset/images/activites/1_xlarge/activite_4x.jpg 1920w
+                            "
+                            sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px"
+                            alt="Auberge La Cannebière à Marseille" >
                     
                         <div class="activite_detail">
-                            <p style="font-weight: bold;" > Notre-Dame-de-la-Garde</p>
+                            <p class="bold" > Notre-Dame-de-la-Garde</p>
                         </div>
                     </div>
 
                     <div class="activite_court" id="longchamp">
-                        <img class="image_activite2" src="asset/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Auberge La Cannebière à Marseille" >
+                        <img class="image_activite2"  
+                            src="asset/images/activites/3_medium/activite_5x.jpg" 
+                            srcset="
+                            asset/images/activites/4_small/activite_5x.jpg 640w,
+                            asset/images/activites/3_medium/activite_5x.jpg 1024w,
+                            asset/images/activites/2_large/activite_5x.jpg 1440w,
+                            asset/images/activites/1_xlarge/activite_5x.jpg 1920w
+                            "
+                            sizes="(max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
+                                        800px"
+                            alt="Auberge La Cannebière à Marseille" >
                     
                         <div class="activite_detail">
-                            <p style="font-weight: bold;" > Parc Longchamp </p>
+                            <p class="bold" > Parc Longchamp </p>
                         </div>
                     </div>
                 </div>
@@ -324,9 +478,9 @@
             <div class="footer_item" >
                     <h3> A propos </h3>
                 <ul>
-                    <li style="margin-bottom: 10px;"> <a href="#"> Fonctionnement du site </a> </li>
-                    <li style="margin-bottom: 10px;"> <a href="#"> Conditions générales de vente </a> </li>
-                    <li style="margin-bottom: 10px;"> <a href="#"> Données et confidentialité </a> </li>
+                    <li class="li_bottom"> <a href="#"> Fonctionnement du site </a> </li>
+                    <li class="li_bottom"> <a href="#"> Conditions générales de vente </a> </li>
+                    <li class="li_bottom"> <a href="#"> Données et confidentialité </a> </li>
                 </ul>
                     
             </div>
@@ -334,16 +488,16 @@
             <div class="footer_item" >
                 <h3>Nos hébergements</h3>
                 <ul>
-                    <li style="margin-bottom: 10px;"> <a href="#"> Charte qualité </a> </li>
-                <li style="margin-bottom: 10px;"> <a href="#"> Soumettre votre hôtel </a> </li>
+                    <li class="li_bottom"> <a href="#"> Charte qualité </a> </li>
+                <li class="li_bottom"> <a href="#"> Soumettre votre hôtel </a> </li>
                 </ul>
             </div>
 
             <div class="footer_item" >
                 <h3>Assistance</h3>
                 <ul>
-                    <li style="margin-bottom: 10px;"> <a href="#"> Centre d'aide </a> </li>
-                   <li style="margin-bottom: 10px;"> <a href="#"> Nous contacter </a> </li>
+                    <li class="li_bottom"> <a href="#"> Centre d'aide </a> </li>
+                   <li class="li_bottom"> <a href="#"> Nous contacter </a> </li>
                 </ul>
            </div>
 

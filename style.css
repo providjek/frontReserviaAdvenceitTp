@@ -19,6 +19,7 @@ h1{
 
 footer{
     width: 100%;
+    margin-bottom: -10px
 }
 
 a{
@@ -309,7 +310,7 @@ input{
     padding-top: 0px;
     display: flex; 
     justify-content: space-between; 
-    margin-bottom: 18px;
+    margin-bottom: 25px;
 }
 
 
@@ -372,12 +373,7 @@ input{
 }
 .populaire_card{
     
-        /* align-content: space-around; */
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* width: 30%; */
     height: 167px;
     background-color: white;
     padding: 1%;
@@ -764,10 +760,15 @@ footer{
     .section_recherche p {
         margin-bottom: 10px;
     }
+    section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-    .section_recherche, .section_hebergement{
+    .section_recherche {
         padding-left: 25px;
     }
+    
     .section_recherche h1, .section_recherche p{
         padding: 5px;
     }
@@ -819,27 +820,31 @@ footer{
         padding-bottom: 10px;
         padding-left: 0px;
         padding-right: 0px;
+        padding-top: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .populaire_titre{
-        padding-top: 20px;
+        padding-top: 0px;   
+        margin-bottom: 8px;
     }
     .image_populaire{
         width: 40%;
     }
     .populaire_card_detail h3, .hebergement h3{
-        font-size: 3.3vw;
+        font-size: 2.3vw;
         font-weight: 700;
     }
 
     .populaire_bloc_card{
-        padding-left: 5px;
+        padding-left: 0px;
         display: flex;
         flex-wrap: wrap;
     }
 
     .populaire_card{
-        margin: 7px;
+        margin: 1.5%;
         height: 150px;
         width: 47%;
     }
@@ -886,10 +891,10 @@ footer{
         /* justify-content: center; */
         /* align-items: center; */
         /* flex: 2; */
-        /* margin-right: 20px; */
         /* border-radius: 10px; */
         /* padding-left: 37px; */
         /* padding-right: 20px; */
+        margin-right: 0px;
         padding-bottom: 23px;
         background-color: #FFF;
         height: 680px;
@@ -898,6 +903,7 @@ footer{
 
     .section_hebergement h2{
         margin-left: 13px;
+        margin-bottom: 12px;
     }
 
   
@@ -934,7 +940,7 @@ footer{
         margin-left: 15px;
     }
     .ligne_marseille{
-        padding: 8px 21px 8px 0px;
+        padding: 8px 12px 8px 0px;
     }
     .activite2{
         height: auto;
@@ -952,7 +958,7 @@ footer{
     #activite{
         padding-left: 10px;
         margin-top: 10px;
-        padding-right: 25px;
+        padding-right: 10px;
     }
 
 
@@ -1012,7 +1018,7 @@ footer{
     }
 
     .populaire_titre{
-        padding-top: 20px;
+        padding-top: 0px;
     }
 
 
